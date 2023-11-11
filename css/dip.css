@@ -876,7 +876,7 @@ body, h1, h2, h3, h4, h5, h6, ul {
     -webkit-appearance: none;
     -moz-appearance: none;
     
-    background-image: url("svg/form-arrows.svg");
+    background-image: url(../svg/form-arrows.svg);
     background-repeat: no-repeat;
     background-position: right 13px center;
     background-size: 10px;
@@ -885,7 +885,6 @@ body, h1, h2, h3, h4, h5, h6, ul {
 
 .form__select__options:focus {
     outline: 2px solid #bfc2c5;
-    
 }
 
 .radio-content {
@@ -895,7 +894,6 @@ body, h1, h2, h3, h4, h5, h6, ul {
 
 .form__radio {
     padding-top: 7px;
-
 }
 
 .radio {
@@ -916,7 +914,7 @@ body, h1, h2, h3, h4, h5, h6, ul {
     vertical-align: middle;
     width: 20px;
     height: 20px;
-    background-image: url("svg/form-empty-circle.svg");
+    background-image: url(../svg/form-empty-circle.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 20px;
@@ -925,7 +923,7 @@ body, h1, h2, h3, h4, h5, h6, ul {
 }
 
 .radio:checked + .text__radio::before {
-    background-image: url("svg/form-circle.svg");
+    background-image: url(../svg/form-circle.svg);
  }
 
 .form__text {
